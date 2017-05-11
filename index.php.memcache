@@ -1,0 +1,7 @@
+<?php
+$mem = new Memcached();
+$memcached_host = '127.0.0.1';
+$memcached_port = 11211;
+$mem->addServer($memcached_host, $memcached_port);
+echo "Page under construction...";
+?>
